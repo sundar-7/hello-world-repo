@@ -1,6 +1,6 @@
 name: Hello World
 
-on: push
+'on': push
 
 jobs:
   hello-job:
@@ -9,4 +9,3 @@ jobs:
       - name: Echo text
         run: echo "Hello, world!"  
 
- 
